@@ -1,0 +1,53 @@
+object Form1: TForm1
+  Left = 488
+  Height = 692
+  Top = 192
+  Width = 866
+  Caption = 'Главное меню'
+  ClientHeight = 692
+  ClientWidth = 866
+  Color = clCream
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Button5: TButton
+    Left = 336
+    Height = 65
+    Top = 216
+    Width = 160
+    Caption = 'Новая игра'
+    OnClick = Button5Click
+    TabOrder = 0
+  end
+  object Button6: TButton
+    Left = 336
+    Height = 65
+    Top = 328
+    Width = 160
+    Caption = 'Настройки'
+    OnClick = Button6Click
+    TabOrder = 1
+  end
+  object Button7: TButton
+    Left = 336
+    Height = 65
+    Top = 440
+    Width = 160
+    Caption = 'Выход'
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 376
+    Height = 28
+    Top = 40
+    Width = 72
+    Caption = 'Dark path'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'Tw Cen MT Condensed'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end
