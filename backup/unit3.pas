@@ -24,7 +24,7 @@ var
   Form3: TForm3;
 
 implementation
-
+      uses unit1;
 {$R *.lfm}
 
 { TForm3 }

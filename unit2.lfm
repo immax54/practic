@@ -1,11 +1,11 @@
 object Form2: TForm2
-  Left = 999
-  Height = 454
-  Top = 171
-  Width = 487
+  Left = 453
+  Height = 717
+  Top = 203
+  Width = 793
   Caption = 'Новая игра'
-  ClientHeight = 454
-  ClientWidth = 487
+  ClientHeight = 717
+  ClientWidth = 793
   LCLVersion = '2.0.10.0'
   object Button1: TButton
     Left = 8
@@ -15,5 +15,317 @@ object Form2: TForm2
     Caption = 'Назад'
     OnClick = Button1Click
     TabOrder = 0
+  end
+  object B11: TButton
+    Left = 152
+    Height = 80
+    Top = 96
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 1
+  end
+  object B12: TButton
+    Left = 152
+    Height = 80
+    Top = 176
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object B13: TButton
+    Left = 152
+    Height = 80
+    Top = 256
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object B14: TButton
+    Left = 152
+    Height = 80
+    Top = 336
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object B21: TButton
+    Left = 232
+    Height = 80
+    Top = 96
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object B22: TButton
+    Left = 232
+    Height = 80
+    Top = 176
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 6
+  end
+  object B23: TButton
+    Left = 232
+    Height = 80
+    Top = 256
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 7
+  end
+  object B24: TButton
+    Left = 232
+    Height = 80
+    Top = 336
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 8
+  end
+  object B31: TButton
+    Left = 312
+    Height = 80
+    Top = 96
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 9
+  end
+  object B32: TButton
+    Left = 312
+    Height = 80
+    Top = 176
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 10
+  end
+  object B33: TButton
+    Left = 312
+    Height = 80
+    Top = 256
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 11
+  end
+  object B34: TButton
+    Left = 312
+    Height = 80
+    Top = 336
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 12
+  end
+  object B41: TButton
+    Left = 392
+    Height = 80
+    Top = 96
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 13
+  end
+  object B42: TButton
+    Left = 392
+    Height = 80
+    Top = 176
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 14
+  end
+  object B43: TButton
+    Left = 392
+    Height = 80
+    Top = 256
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 15
+  end
+  object B44: TButton
+    Left = 392
+    Height = 80
+    Top = 336
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 16
+  end
+  object B51: TButton
+    Left = 472
+    Height = 80
+    Top = 96
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 17
+  end
+  object B52: TButton
+    Left = 472
+    Height = 80
+    Top = 176
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 18
+  end
+  object B53: TButton
+    Left = 472
+    Height = 80
+    Top = 256
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 19
+  end
+  object B54: TButton
+    Left = 472
+    Height = 80
+    Top = 336
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 20
+  end
+  object B15: TButton
+    Left = 152
+    Height = 80
+    Top = 416
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 21
+  end
+  object B16: TButton
+    Left = 152
+    Height = 80
+    Top = 496
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 22
+  end
+  object B25: TButton
+    Left = 232
+    Height = 80
+    Top = 416
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 23
+  end
+  object B26: TButton
+    Left = 232
+    Height = 80
+    Top = 496
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 24
+  end
+  object B35: TButton
+    Left = 312
+    Height = 80
+    Top = 416
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 25
+  end
+  object B36: TButton
+    Left = 312
+    Height = 80
+    Top = 496
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 26
+  end
+  object B45: TButton
+    Left = 392
+    Height = 80
+    Top = 416
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 27
+  end
+  object B46: TButton
+    Left = 392
+    Height = 80
+    Top = 496
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 28
+  end
+  object B55: TButton
+    Left = 472
+    Height = 80
+    Top = 416
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 29
+  end
+  object B56: TButton
+    Left = 472
+    Height = 80
+    Top = 496
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 30
+  end
+  object B61: TButton
+    Left = 552
+    Height = 80
+    Top = 96
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 31
+  end
+  object B62: TButton
+    Left = 552
+    Height = 80
+    Top = 176
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 32
+  end
+  object B63: TButton
+    Left = 552
+    Height = 80
+    Top = 256
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 33
+  end
+  object B64: TButton
+    Left = 552
+    Height = 80
+    Top = 336
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 34
+  end
+  object B65: TButton
+    Left = 552
+    Height = 80
+    Top = 416
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 35
+  end
+  object B66: TButton
+    Left = 552
+    Height = 80
+    Top = 496
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 36
+  end
+  object Button2: TButton
+    Left = 664
+    Height = 40
+    Top = 8
+    Width = 112
+    Caption = 'Заново'
+    OnClick = Button2Click
+    TabOrder = 37
+  end
+  object Label1: TLabel
+    Left = 360
+    Height = 32
+    Top = 24
+    Width = 61
+    Caption = 'Ход 1'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
   end
 end

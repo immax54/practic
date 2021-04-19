@@ -42,14 +42,12 @@ end;
 procedure TForm1.Button5Click(Sender: TObject);
 begin
   Form2.Show;
-  Form1.Close;
 end;
 
 procedure TForm1.Button6Click(Sender: TObject);
 begin
 
   Form3.Show;
-  Form1.Close;
 end;
 
 end.
