@@ -1,13 +1,12 @@
 object Form1: TForm1
-  Left = 488
+  Left = 256
   Height = 692
-  Top = 192
+  Top = 268
   Width = 866
   Caption = 'Главное меню'
   ClientHeight = 692
   ClientWidth = 866
   Color = clCream
-  OnCreate = FormCreate
   LCLVersion = '2.0.10.0'
   object Button5: TButton
     Left = 336

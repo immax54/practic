@@ -27,6 +27,7 @@ type
 
 var
   Form1: TForm1;
+  Form2: TForm2;
 
 implementation
 
@@ -34,22 +35,15 @@ implementation
 
 { TForm1 }
 
-procedure TForm1.FormCreate(Sender: TObject);
-begin
-
-end;
-
 procedure TForm1.Button5Click(Sender: TObject);
 begin
   Form2.Show;
-  Form1.Close;
 end;
 
 procedure TForm1.Button6Click(Sender: TObject);
 begin
 
   Form3.Show;
-  Form1.Close;
 end;
 
 end.
