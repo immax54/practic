@@ -18,7 +18,7 @@ type
     Label1: TLabel;
     procedure Button5Click(Sender: TObject);
     procedure Button6Click(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
   private
 
   public
@@ -27,17 +27,13 @@ type
 
 var
   Form1: TForm1;
+  Form2: TForm2;
 
 implementation
 
 {$R *.lfm}
 
 { TForm1 }
-
-procedure TForm1.FormCreate(Sender: TObject);
-begin
-
-end;
 
 procedure TForm1.Button5Click(Sender: TObject);
 begin
@@ -48,6 +44,11 @@ procedure TForm1.Button6Click(Sender: TObject);
 begin
 
   Form3.Show;
+end;
+
+procedure TForm1.Button7Click(Sender: TObject);
+begin
+  Close;
 end;
 
 end.
