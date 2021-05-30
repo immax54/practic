@@ -1,24 +1,13 @@
 object Form2: TForm2
-<<<<<<< HEAD
-  Left = 49
+  Left = 54
   Height = 721
-  Top = 45
+  Top = 38
   Width = 916
   Caption = 'Новая игра'
   ClientHeight = 721
   ClientWidth = 916
   OnCreate = FormCreate
   LCLVersion = '2.0.12.0'
-=======
-  Left = 453
-  Height = 717
-  Top = 203
-  Width = 793
-  Caption = 'Новая игра'
-  ClientHeight = 717
-  ClientWidth = 793
-  LCLVersion = '2.0.10.0'
->>>>>>> d9e21bdb9ff2255a4519d6462a757baf67b63ff1
   object Button1: TButton
     Left = 8
     Height = 40
@@ -28,7 +17,6 @@ object Form2: TForm2
     OnClick = Button1Click
     TabOrder = 0
   end
-<<<<<<< HEAD
   object Button2: TButton
     Left = 720
     Height = 40
@@ -54,9 +42,9 @@ object Form2: TForm2
     ParentFont = False
   end
   object Image1: TImage
-    Left = 792
+    Left = 800
     Height = 80
-    Top = 592
+    Top = 576
     Width = 80
     Center = True
     Picture.Data = {
@@ -79,9 +67,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image2: TImage
-    Left = 792
+    Left = 800
     Height = 80
-    Top = 496
+    Top = 480
     Width = 80
     Center = True
     Picture.Data = {
@@ -141,9 +129,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image3: TImage
-    Left = 792
+    Left = 800
     Height = 80
-    Top = 384
+    Top = 368
     Width = 80
     Center = True
     Picture.Data = {
@@ -335,7 +323,7 @@ object Form2: TForm2
   object Image24: TImage
     Left = 368
     Height = 80
-    Top = 80
+    Top = 240
     Width = 80
     Center = True
     OnClick = Image24Click
@@ -365,7 +353,7 @@ object Form2: TForm2
   object Image25: TImage
     Left = 448
     Height = 80
-    Top = 80
+    Top = 240
     Width = 80
     Center = True
     OnClick = Image25Click
@@ -395,7 +383,7 @@ object Form2: TForm2
   object Image26: TImage
     Left = 528
     Height = 80
-    Top = 80
+    Top = 240
     Width = 80
     Center = True
     OnClick = Image26Click
@@ -425,7 +413,7 @@ object Form2: TForm2
   object Image27: TImage
     Left = 608
     Height = 80
-    Top = 80
+    Top = 240
     Width = 80
     Center = True
     OnClick = Image27Click
@@ -453,9 +441,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Group: TRadioGroup
-    Left = 720
+    Left = 728
     Height = 317
-    Top = 368
+    Top = 352
     Width = 65
     AutoFill = True
     ChildSizing.LeftRightSpacing = 6
@@ -475,9 +463,9 @@ object Form2: TForm2
     TabOrder = 2
   end
   object Image8: TImage
-    Left = 48
+    Left = 368
     Height = 80
-    Top = 160
+    Top = 80
     Width = 80
     Center = True
     OnClick = Image8Click
@@ -505,9 +493,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image9: TImage
-    Left = 128
+    Left = 448
     Height = 80
-    Top = 160
+    Top = 80
     Width = 80
     Center = True
     OnClick = Image9Click
@@ -535,9 +523,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image10: TImage
-    Left = 208
+    Left = 528
     Height = 80
-    Top = 160
+    Top = 80
     Width = 80
     Center = True
     OnClick = Image10Click
@@ -565,9 +553,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image11: TImage
-    Left = 288
+    Left = 608
     Height = 80
-    Top = 160
+    Top = 80
     Width = 80
     Center = True
     OnClick = Image11Click
@@ -595,9 +583,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image28: TImage
-    Left = 368
+    Left = 48
     Height = 80
-    Top = 160
+    Top = 320
     Width = 80
     Center = True
     OnClick = Image28Click
@@ -625,9 +613,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image29: TImage
-    Left = 448
+    Left = 128
     Height = 80
-    Top = 160
+    Top = 320
     Width = 80
     Center = True
     OnClick = Image29Click
@@ -655,9 +643,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image30: TImage
-    Left = 528
+    Left = 208
     Height = 80
-    Top = 160
+    Top = 320
     Width = 80
     Center = True
     OnClick = Image30Click
@@ -685,9 +673,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image31: TImage
-    Left = 608
+    Left = 288
     Height = 80
-    Top = 160
+    Top = 320
     Width = 80
     Center = True
     OnClick = Image31Click
@@ -717,7 +705,7 @@ object Form2: TForm2
   object Image12: TImage
     Left = 48
     Height = 80
-    Top = 240
+    Top = 160
     Width = 80
     Center = True
     OnClick = Image12Click
@@ -747,7 +735,7 @@ object Form2: TForm2
   object Image13: TImage
     Left = 128
     Height = 80
-    Top = 240
+    Top = 160
     Width = 80
     Center = True
     OnClick = Image13Click
@@ -777,7 +765,7 @@ object Form2: TForm2
   object Image14: TImage
     Left = 208
     Height = 80
-    Top = 240
+    Top = 160
     Width = 80
     Center = True
     OnClick = Image14Click
@@ -807,7 +795,7 @@ object Form2: TForm2
   object Image15: TImage
     Left = 288
     Height = 80
-    Top = 240
+    Top = 160
     Width = 80
     Center = True
     OnClick = Image15Click
@@ -837,7 +825,7 @@ object Form2: TForm2
   object Image32: TImage
     Left = 368
     Height = 80
-    Top = 240
+    Top = 320
     Width = 80
     Center = True
     OnClick = Image32Click
@@ -867,7 +855,7 @@ object Form2: TForm2
   object Image33: TImage
     Left = 448
     Height = 80
-    Top = 240
+    Top = 320
     Width = 80
     Center = True
     OnClick = Image33Click
@@ -897,7 +885,7 @@ object Form2: TForm2
   object Image34: TImage
     Left = 528
     Height = 80
-    Top = 240
+    Top = 320
     Width = 80
     Center = True
     OnClick = Image34Click
@@ -927,7 +915,7 @@ object Form2: TForm2
   object Image35: TImage
     Left = 608
     Height = 80
-    Top = 240
+    Top = 320
     Width = 80
     Center = True
     OnClick = Image35Click
@@ -955,9 +943,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image16: TImage
-    Left = 48
+    Left = 368
     Height = 80
-    Top = 320
+    Top = 160
     Width = 80
     Center = True
     OnClick = Image16Click
@@ -985,9 +973,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image17: TImage
-    Left = 128
+    Left = 448
     Height = 80
-    Top = 320
+    Top = 160
     Width = 80
     Center = True
     OnClick = Image17Click
@@ -1015,9 +1003,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image18: TImage
-    Left = 208
+    Left = 528
     Height = 80
-    Top = 320
+    Top = 160
     Width = 80
     Center = True
     OnClick = Image18Click
@@ -1045,9 +1033,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image19: TImage
-    Left = 288
+    Left = 608
     Height = 80
-    Top = 320
+    Top = 160
     Width = 80
     Center = True
     OnClick = Image19Click
@@ -1075,9 +1063,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image36: TImage
-    Left = 368
+    Left = 48
     Height = 80
-    Top = 320
+    Top = 400
     Width = 80
     Center = True
     OnClick = Image36Click
@@ -1105,9 +1093,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image37: TImage
-    Left = 448
+    Left = 128
     Height = 80
-    Top = 320
+    Top = 400
     Width = 80
     Center = True
     OnClick = Image37Click
@@ -1135,9 +1123,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image38: TImage
-    Left = 528
+    Left = 208
     Height = 80
-    Top = 320
+    Top = 400
     Width = 80
     Center = True
     OnClick = Image38Click
@@ -1165,9 +1153,9 @@ object Form2: TForm2
     Proportional = True
   end
   object Image39: TImage
-    Left = 608
+    Left = 288
     Height = 80
-    Top = 320
+    Top = 400
     Width = 80
     Center = True
     OnClick = Image39Click
@@ -1197,7 +1185,7 @@ object Form2: TForm2
   object Image20: TImage
     Left = 48
     Height = 80
-    Top = 400
+    Top = 240
     Width = 80
     Center = True
     OnClick = Image20Click
@@ -1227,7 +1215,7 @@ object Form2: TForm2
   object Image21: TImage
     Left = 128
     Height = 80
-    Top = 400
+    Top = 240
     Width = 80
     Center = True
     OnClick = Image21Click
@@ -1257,7 +1245,7 @@ object Form2: TForm2
   object Image22: TImage
     Left = 208
     Height = 80
-    Top = 400
+    Top = 240
     Width = 80
     Center = True
     OnClick = Image22Click
@@ -1287,7 +1275,7 @@ object Form2: TForm2
   object Image23: TImage
     Left = 288
     Height = 80
-    Top = 400
+    Top = 240
     Width = 80
     Center = True
     OnClick = Image23Click
@@ -1673,318 +1661,5 @@ object Form2: TForm2
       4E44AE426082
     }
     Proportional = True
-=======
-  object B11: TButton
-    Left = 152
-    Height = 80
-    Top = 96
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 1
-  end
-  object B12: TButton
-    Left = 152
-    Height = 80
-    Top = 176
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 2
-  end
-  object B13: TButton
-    Left = 152
-    Height = 80
-    Top = 256
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 3
-  end
-  object B14: TButton
-    Left = 152
-    Height = 80
-    Top = 336
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 4
-  end
-  object B21: TButton
-    Left = 232
-    Height = 80
-    Top = 96
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 5
-  end
-  object B22: TButton
-    Left = 232
-    Height = 80
-    Top = 176
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 6
-  end
-  object B23: TButton
-    Left = 232
-    Height = 80
-    Top = 256
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 7
-  end
-  object B24: TButton
-    Left = 232
-    Height = 80
-    Top = 336
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 8
-  end
-  object B31: TButton
-    Left = 312
-    Height = 80
-    Top = 96
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 9
-  end
-  object B32: TButton
-    Left = 312
-    Height = 80
-    Top = 176
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 10
-  end
-  object B33: TButton
-    Left = 312
-    Height = 80
-    Top = 256
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 11
-  end
-  object B34: TButton
-    Left = 312
-    Height = 80
-    Top = 336
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 12
-  end
-  object B41: TButton
-    Left = 392
-    Height = 80
-    Top = 96
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 13
-  end
-  object B42: TButton
-    Left = 392
-    Height = 80
-    Top = 176
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 14
-  end
-  object B43: TButton
-    Left = 392
-    Height = 80
-    Top = 256
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 15
-  end
-  object B44: TButton
-    Left = 392
-    Height = 80
-    Top = 336
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 16
-  end
-  object B51: TButton
-    Left = 472
-    Height = 80
-    Top = 96
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 17
-  end
-  object B52: TButton
-    Left = 472
-    Height = 80
-    Top = 176
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 18
-  end
-  object B53: TButton
-    Left = 472
-    Height = 80
-    Top = 256
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 19
-  end
-  object B54: TButton
-    Left = 472
-    Height = 80
-    Top = 336
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 20
-  end
-  object B15: TButton
-    Left = 152
-    Height = 80
-    Top = 416
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 21
-  end
-  object B16: TButton
-    Left = 152
-    Height = 80
-    Top = 496
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 22
-  end
-  object B25: TButton
-    Left = 232
-    Height = 80
-    Top = 416
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 23
-  end
-  object B26: TButton
-    Left = 232
-    Height = 80
-    Top = 496
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 24
-  end
-  object B35: TButton
-    Left = 312
-    Height = 80
-    Top = 416
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 25
-  end
-  object B36: TButton
-    Left = 312
-    Height = 80
-    Top = 496
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 26
-  end
-  object B45: TButton
-    Left = 392
-    Height = 80
-    Top = 416
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 27
-  end
-  object B46: TButton
-    Left = 392
-    Height = 80
-    Top = 496
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 28
-  end
-  object B55: TButton
-    Left = 472
-    Height = 80
-    Top = 416
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 29
-  end
-  object B56: TButton
-    Left = 472
-    Height = 80
-    Top = 496
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 30
-  end
-  object B61: TButton
-    Left = 552
-    Height = 80
-    Top = 96
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 31
-  end
-  object B62: TButton
-    Left = 552
-    Height = 80
-    Top = 176
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 32
-  end
-  object B63: TButton
-    Left = 552
-    Height = 80
-    Top = 256
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 33
-  end
-  object B64: TButton
-    Left = 552
-    Height = 80
-    Top = 336
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 34
-  end
-  object B65: TButton
-    Left = 552
-    Height = 80
-    Top = 416
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 35
-  end
-  object B66: TButton
-    Left = 552
-    Height = 80
-    Top = 496
-    Width = 80
-    OnClick = Button3Click
-    TabOrder = 36
-  end
-  object Button2: TButton
-    Left = 664
-    Height = 40
-    Top = 8
-    Width = 112
-    Caption = 'Заново'
-    OnClick = Button2Click
-    TabOrder = 37
-  end
-  object Label1: TLabel
-    Left = 360
-    Height = 32
-    Top = 24
-    Width = 61
-    Caption = 'Ход 1'
-    Font.CharSet = RUSSIAN_CHARSET
-    Font.Color = clBlack
-    Font.Height = -24
-    Font.Name = 'Segoe UI'
-    Font.Pitch = fpVariable
-    Font.Quality = fqDraft
-    ParentColor = False
-    ParentFont = False
->>>>>>> d9e21bdb9ff2255a4519d6462a757baf67b63ff1
   end
 end

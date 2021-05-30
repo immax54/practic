@@ -38,20 +38,18 @@ implementation
 procedure TForm1.Button5Click(Sender: TObject);
 begin
   Form2.Show;
+  TForm2.Button2Click;
 end;
 
 procedure TForm1.Button6Click(Sender: TObject);
 begin
 
   Form3.Show;
-<<<<<<< HEAD
 end;
 
 procedure TForm1.Button7Click(Sender: TObject);
 begin
-  Break;
-=======
->>>>>>> d9e21bdb9ff2255a4519d6462a757baf67b63ff1
+  Close;
 end;
 
 end.
