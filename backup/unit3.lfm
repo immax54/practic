@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 object Form3: TForm3
   Left = 605
   Height = 427
@@ -126,3 +127,24 @@ object Form3: TForm3
     Visible = False
   end
 end
+=======
+object Form3: TForm3
+  Left = 518
+  Height = 459
+  Top = 562
+  Width = 468
+  Caption = 'Настройки'
+  ClientHeight = 459
+  ClientWidth = 468
+  LCLVersion = '2.0.10.0'
+  object Button1: TButton
+    Left = 8
+    Height = 40
+    Top = 8
+    Width = 112
+    Caption = 'Назад'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end
+>>>>>>> 6fb28f0a429b67d219247a687c5a39a26a405a11
