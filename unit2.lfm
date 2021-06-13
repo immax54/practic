@@ -1,40 +1,56 @@
 object Form2: TForm2
-  Left = 922
-  Height = 724
-  Top = 102
-  Width = 916
+  Left = 189
+  Height = 705
+  Top = 87
+  Width = 1366
   Caption = 'Новая игра'
-  ClientHeight = 724
-  ClientWidth = 916
+  ClientHeight = 705
+  ClientWidth = 1366
+  Color = 13092807
+  OnClick = FormClick
   OnCreate = FormCreate
-  LCLVersion = '2.0.10.0'
+  LCLVersion = '2.0.12.0'
   object Button1: TButton
-    Left = 8
-    Height = 40
-    Top = 8
-    Width = 112
+    Left = 16
+    Height = 80
+    Top = 0
+    Width = 168
     Caption = 'Назад'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
     OnClick = Button1Click
+    ParentFont = False
     TabOrder = 0
   end
   object Button2: TButton
-    Left = 720
-    Height = 40
-    Top = 8
-    Width = 112
+    Left = 1184
+    Height = 72
+    Top = 0
+    Width = 168
     Caption = 'Заново'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
     OnClick = Button2Click
+    ParentFont = False
     TabOrder = 1
   end
   object Label1: TLabel
-    Left = 360
-    Height = 32
-    Top = 24
-    Width = 61
+    Left = 600
+    Height = 50
+    Top = 16
+    Width = 94
     Caption = 'Ход 1'
     Font.CharSet = RUSSIAN_CHARSET
     Font.Color = clBlack
-    Font.Height = -24
+    Font.Height = -37
     Font.Name = 'Segoe UI'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -42,10 +58,10 @@ object Form2: TForm2
     ParentFont = False
   end
   object Image1: TImage
-    Left = 792
-    Height = 80
-    Top = 592
-    Width = 80
+    Left = 1239
+    Height = 106
+    Top = 570
+    Width = 105
     Center = True
     Picture.Data = {
       1754506F727461626C654E6574776F726B47726170686963B701000089504E47
@@ -67,10 +83,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image2: TImage
-    Left = 792
-    Height = 80
-    Top = 496
-    Width = 80
+    Left = 1239
+    Height = 106
+    Top = 442
+    Width = 105
     Center = True
     Picture.Data = {
       1754506F727461626C654E6574776F726B477261706869635506000089504E47
@@ -129,10 +145,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image3: TImage
-    Left = 792
-    Height = 80
-    Top = 384
-    Width = 80
+    Left = 1239
+    Height = 106
+    Top = 294
+    Width = 105
     Center = True
     Picture.Data = {
       1754506F727461626C654E6574776F726B477261706869639907000089504E47
@@ -201,10 +217,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image4: TImage
-    Left = 48
-    Height = 80
-    Top = 80
-    Width = 80
+    Left = 208
+    Height = 103
+    Top = 77
+    Width = 104
     Center = True
     OnClick = Image4Click
     Picture.Data = {
@@ -231,10 +247,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image5: TImage
-    Left = 128
-    Height = 80
-    Top = 80
-    Width = 80
+    Left = 312
+    Height = 103
+    Top = 77
+    Width = 104
     Center = True
     OnClick = Image5Click
     Picture.Data = {
@@ -261,10 +277,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image6: TImage
-    Left = 208
-    Height = 80
-    Top = 80
-    Width = 80
+    Left = 416
+    Height = 103
+    Top = 77
+    Width = 104
     Center = True
     OnClick = Image6Click
     Picture.Data = {
@@ -291,10 +307,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image7: TImage
-    Left = 288
-    Height = 80
-    Top = 80
-    Width = 80
+    Left = 520
+    Height = 103
+    Top = 77
+    Width = 104
     Center = True
     OnClick = Image7Click
     Picture.Data = {
@@ -321,10 +337,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image24: TImage
-    Left = 368
-    Height = 80
-    Top = 80
-    Width = 80
+    Left = 625
+    Height = 103
+    Top = 282
+    Width = 104
     Center = True
     OnClick = Image24Click
     Picture.Data = {
@@ -351,10 +367,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image25: TImage
-    Left = 448
-    Height = 80
-    Top = 80
-    Width = 80
+    Left = 729
+    Height = 103
+    Top = 282
+    Width = 104
     Center = True
     OnClick = Image25Click
     Picture.Data = {
@@ -381,10 +397,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image26: TImage
-    Left = 528
-    Height = 80
-    Top = 80
-    Width = 80
+    Left = 833
+    Height = 103
+    Top = 282
+    Width = 104
     Center = True
     OnClick = Image26Click
     Picture.Data = {
@@ -411,10 +427,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image27: TImage
-    Left = 608
-    Height = 80
-    Top = 80
-    Width = 80
+    Left = 937
+    Height = 103
+    Top = 282
+    Width = 104
     Center = True
     OnClick = Image27Click
     Picture.Data = {
@@ -441,10 +457,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Group: TRadioGroup
-    Left = 720
-    Height = 317
-    Top = 368
-    Width = 65
+    Left = 1144
+    Height = 421
+    Top = 272
+    Width = 86
     AutoFill = True
     ChildSizing.LeftRightSpacing = 6
     ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
@@ -453,8 +469,8 @@ object Form2: TForm2
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 1
-    ClientHeight = 297
-    ClientWidth = 61
+    ClientHeight = 403
+    ClientWidth = 82
     Items.Strings = (
       'RB1'
       'RB2'
@@ -463,10 +479,10 @@ object Form2: TForm2
     TabOrder = 2
   end
   object Image8: TImage
-    Left = 48
-    Height = 80
-    Top = 160
-    Width = 80
+    Left = 625
+    Height = 103
+    Top = 77
+    Width = 104
     Center = True
     OnClick = Image8Click
     Picture.Data = {
@@ -493,10 +509,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image9: TImage
-    Left = 128
-    Height = 80
-    Top = 160
-    Width = 80
+    Left = 729
+    Height = 103
+    Top = 77
+    Width = 104
     Center = True
     OnClick = Image9Click
     Picture.Data = {
@@ -523,10 +539,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image10: TImage
-    Left = 208
-    Height = 80
-    Top = 160
-    Width = 80
+    Left = 833
+    Height = 103
+    Top = 77
+    Width = 104
     Center = True
     OnClick = Image10Click
     Picture.Data = {
@@ -553,10 +569,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image11: TImage
-    Left = 288
-    Height = 80
-    Top = 160
-    Width = 80
+    Left = 937
+    Height = 103
+    Top = 77
+    Width = 104
     Center = True
     OnClick = Image11Click
     Picture.Data = {
@@ -583,10 +599,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image28: TImage
-    Left = 368
-    Height = 80
-    Top = 160
-    Width = 80
+    Left = 208
+    Height = 103
+    Top = 385
+    Width = 104
     Center = True
     OnClick = Image28Click
     Picture.Data = {
@@ -613,10 +629,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image29: TImage
-    Left = 448
-    Height = 80
-    Top = 160
-    Width = 80
+    Left = 312
+    Height = 103
+    Top = 385
+    Width = 104
     Center = True
     OnClick = Image29Click
     Picture.Data = {
@@ -643,10 +659,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image30: TImage
-    Left = 528
-    Height = 80
-    Top = 160
-    Width = 80
+    Left = 416
+    Height = 103
+    Top = 385
+    Width = 104
     Center = True
     OnClick = Image30Click
     Picture.Data = {
@@ -673,10 +689,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image31: TImage
-    Left = 608
-    Height = 80
-    Top = 160
-    Width = 80
+    Left = 520
+    Height = 103
+    Top = 385
+    Width = 104
     Center = True
     OnClick = Image31Click
     Picture.Data = {
@@ -703,10 +719,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image12: TImage
-    Left = 48
-    Height = 80
-    Top = 240
-    Width = 80
+    Left = 208
+    Height = 103
+    Top = 180
+    Width = 104
     Center = True
     OnClick = Image12Click
     Picture.Data = {
@@ -733,10 +749,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image13: TImage
-    Left = 128
-    Height = 80
-    Top = 240
-    Width = 80
+    Left = 312
+    Height = 103
+    Top = 180
+    Width = 104
     Center = True
     OnClick = Image13Click
     Picture.Data = {
@@ -763,10 +779,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image14: TImage
-    Left = 208
-    Height = 80
-    Top = 240
-    Width = 80
+    Left = 416
+    Height = 103
+    Top = 180
+    Width = 104
     Center = True
     OnClick = Image14Click
     Picture.Data = {
@@ -793,10 +809,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image15: TImage
-    Left = 288
-    Height = 80
-    Top = 240
-    Width = 80
+    Left = 520
+    Height = 103
+    Top = 180
+    Width = 104
     Center = True
     OnClick = Image15Click
     Picture.Data = {
@@ -823,10 +839,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image32: TImage
-    Left = 368
-    Height = 80
-    Top = 240
-    Width = 80
+    Left = 625
+    Height = 103
+    Top = 385
+    Width = 104
     Center = True
     OnClick = Image32Click
     Picture.Data = {
@@ -853,10 +869,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image33: TImage
-    Left = 448
-    Height = 80
-    Top = 240
-    Width = 80
+    Left = 729
+    Height = 103
+    Top = 385
+    Width = 104
     Center = True
     OnClick = Image33Click
     Picture.Data = {
@@ -883,10 +899,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image34: TImage
-    Left = 528
-    Height = 80
-    Top = 240
-    Width = 80
+    Left = 833
+    Height = 103
+    Top = 385
+    Width = 104
     Center = True
     OnClick = Image34Click
     Picture.Data = {
@@ -913,10 +929,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image35: TImage
-    Left = 608
-    Height = 80
-    Top = 240
-    Width = 80
+    Left = 937
+    Height = 103
+    Top = 385
+    Width = 104
     Center = True
     OnClick = Image35Click
     Picture.Data = {
@@ -943,10 +959,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image16: TImage
-    Left = 48
-    Height = 80
-    Top = 320
-    Width = 80
+    Left = 625
+    Height = 103
+    Top = 180
+    Width = 104
     Center = True
     OnClick = Image16Click
     Picture.Data = {
@@ -973,10 +989,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image17: TImage
-    Left = 128
-    Height = 80
-    Top = 320
-    Width = 80
+    Left = 729
+    Height = 103
+    Top = 180
+    Width = 104
     Center = True
     OnClick = Image17Click
     Picture.Data = {
@@ -1003,10 +1019,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image18: TImage
-    Left = 208
-    Height = 80
-    Top = 320
-    Width = 80
+    Left = 833
+    Height = 103
+    Top = 180
+    Width = 104
     Center = True
     OnClick = Image18Click
     Picture.Data = {
@@ -1033,10 +1049,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image19: TImage
-    Left = 288
-    Height = 80
-    Top = 320
-    Width = 80
+    Left = 937
+    Height = 103
+    Top = 180
+    Width = 104
     Center = True
     OnClick = Image19Click
     Picture.Data = {
@@ -1063,10 +1079,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image36: TImage
-    Left = 368
-    Height = 80
-    Top = 320
-    Width = 80
+    Left = 208
+    Height = 103
+    Top = 488
+    Width = 104
     Center = True
     OnClick = Image36Click
     Picture.Data = {
@@ -1093,10 +1109,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image37: TImage
-    Left = 448
-    Height = 80
-    Top = 320
-    Width = 80
+    Left = 312
+    Height = 103
+    Top = 488
+    Width = 104
     Center = True
     OnClick = Image37Click
     Picture.Data = {
@@ -1123,10 +1139,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image38: TImage
-    Left = 528
-    Height = 80
-    Top = 320
-    Width = 80
+    Left = 416
+    Height = 103
+    Top = 488
+    Width = 104
     Center = True
     OnClick = Image38Click
     Picture.Data = {
@@ -1153,10 +1169,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image39: TImage
-    Left = 608
-    Height = 80
-    Top = 320
-    Width = 80
+    Left = 520
+    Height = 103
+    Top = 488
+    Width = 104
     Center = True
     OnClick = Image39Click
     Picture.Data = {
@@ -1183,10 +1199,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image20: TImage
-    Left = 48
-    Height = 80
-    Top = 400
-    Width = 80
+    Left = 208
+    Height = 103
+    Top = 282
+    Width = 104
     Center = True
     OnClick = Image20Click
     Picture.Data = {
@@ -1213,10 +1229,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image21: TImage
-    Left = 128
-    Height = 80
-    Top = 400
-    Width = 80
+    Left = 312
+    Height = 103
+    Top = 282
+    Width = 104
     Center = True
     OnClick = Image21Click
     Picture.Data = {
@@ -1243,10 +1259,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image22: TImage
-    Left = 208
-    Height = 80
-    Top = 400
-    Width = 80
+    Left = 416
+    Height = 103
+    Top = 282
+    Width = 104
     Center = True
     OnClick = Image22Click
     Picture.Data = {
@@ -1273,10 +1289,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image23: TImage
-    Left = 288
-    Height = 80
-    Top = 400
-    Width = 80
+    Left = 520
+    Height = 103
+    Top = 282
+    Width = 104
     Center = True
     OnClick = Image23Click
     Picture.Data = {
@@ -1303,10 +1319,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image40: TImage
-    Left = 368
-    Height = 80
-    Top = 400
-    Width = 80
+    Left = 625
+    Height = 103
+    Top = 488
+    Width = 104
     Center = True
     OnClick = Image40Click
     Picture.Data = {
@@ -1333,10 +1349,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image41: TImage
-    Left = 448
-    Height = 80
-    Top = 400
-    Width = 80
+    Left = 729
+    Height = 103
+    Top = 488
+    Width = 104
     Center = True
     OnClick = Image41Click
     Picture.Data = {
@@ -1363,10 +1379,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image42: TImage
-    Left = 528
-    Height = 80
-    Top = 400
-    Width = 80
+    Left = 833
+    Height = 103
+    Top = 488
+    Width = 104
     Center = True
     OnClick = Image42Click
     Picture.Data = {
@@ -1393,10 +1409,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image43: TImage
-    Left = 608
-    Height = 80
-    Top = 400
-    Width = 80
+    Left = 937
+    Height = 103
+    Top = 488
+    Width = 104
     Center = True
     OnClick = Image43Click
     Picture.Data = {
@@ -1423,10 +1439,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image44: TImage
-    Left = 48
-    Height = 80
-    Top = 480
-    Width = 80
+    Left = 208
+    Height = 103
+    Top = 590
+    Width = 104
     Center = True
     OnClick = Image44Click
     Picture.Data = {
@@ -1453,10 +1469,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image45: TImage
-    Left = 128
-    Height = 80
-    Top = 480
-    Width = 80
+    Left = 312
+    Height = 103
+    Top = 590
+    Width = 104
     Center = True
     OnClick = Image45Click
     Picture.Data = {
@@ -1483,10 +1499,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image46: TImage
-    Left = 208
-    Height = 80
-    Top = 480
-    Width = 80
+    Left = 416
+    Height = 103
+    Top = 590
+    Width = 104
     Center = True
     OnClick = Image46Click
     Picture.Data = {
@@ -1513,10 +1529,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image47: TImage
-    Left = 288
-    Height = 80
-    Top = 480
-    Width = 80
+    Left = 520
+    Height = 103
+    Top = 590
+    Width = 104
     Center = True
     OnClick = Image47Click
     Picture.Data = {
@@ -1543,10 +1559,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image48: TImage
-    Left = 368
-    Height = 80
-    Top = 480
-    Width = 80
+    Left = 625
+    Height = 103
+    Top = 590
+    Width = 104
     Center = True
     OnClick = Image48Click
     Picture.Data = {
@@ -1573,10 +1589,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image49: TImage
-    Left = 448
-    Height = 80
-    Top = 480
-    Width = 80
+    Left = 729
+    Height = 103
+    Top = 590
+    Width = 104
     Center = True
     OnClick = Image49Click
     Picture.Data = {
@@ -1603,10 +1619,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image50: TImage
-    Left = 528
-    Height = 80
-    Top = 480
-    Width = 80
+    Left = 833
+    Height = 103
+    Top = 590
+    Width = 104
     Center = True
     OnClick = Image50Click
     Picture.Data = {
@@ -1633,10 +1649,10 @@ object Form2: TForm2
     Proportional = True
   end
   object Image51: TImage
-    Left = 608
-    Height = 80
-    Top = 480
-    Width = 80
+    Left = 937
+    Height = 103
+    Top = 590
+    Width = 104
     Center = True
     OnClick = Image51Click
     Picture.Data = {
@@ -1661,5 +1677,28 @@ object Form2: TForm2
       4E44AE426082
     }
     Proportional = True
+  end
+  object Label2: TLabel
+    Left = 1100
+    Height = 1
+    Top = 108
+    Width = 1
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object ListBox1: TListBox
+    Left = 64
+    Height = 80
+    Top = 136
+    Width = 100
+    ItemHeight = 0
+    TabOrder = 3
+    Visible = False
   end
 end
